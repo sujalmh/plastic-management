@@ -249,4 +249,3 @@ export default Rewards;
 //       </div>
 //     </div>
 //   );
-// };
