@@ -117,7 +117,7 @@ const Rewards = () => {
     return (
         <div className="w-full bg-gray-100 p-10">
             <div className="p-4">
-                <header className="rounded-md">
+                {/* <header className="rounded-md">
                     <div className="p-4">
                         <header className="rounded-md mb-4 flex items-center">
                             <span className="text-3xl text-gray-800">
@@ -164,11 +164,11 @@ const Rewards = () => {
                             </div>
                         </main>
                     </div>
-                </header>
-                <div className="min-h-screen w-full p-4">
+                </header> */}
+                <div className="min-h-screen w-full px-4">
                     <div className="">
-                        <div className="flex justify-between items-center mb-8 mt-8">
-                            <h3 className="text-2xl font-semibold">Rewards</h3>
+                        <div className="flex justify-between items-center mb-8">
+                            <h3 className="text-3xl font-semibold">Rewards</h3>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {mainrewards.map((reward, index) => {
