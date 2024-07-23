@@ -233,7 +233,7 @@ const BuyerDashboard = () => {
                                             <h2 className="text-gray-900 title-font text-xl font-medium">
                                                 {item.name}
                                             </h2>
-                                            <p className="mt-5 cursor-default text-md text-white font-bold text-center bg-green-600 rounded-lg">
+                                            <p className="mt-5 p-1 cursor-default text-md text-white font-bold text-center bg-green-600 rounded-lg">
                                                 + {item.points}
                                             </p>
                                         </div>
