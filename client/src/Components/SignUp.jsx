@@ -197,7 +197,7 @@ const SignUp = () => {
                         Already have an account?{" "}
                         <Link
                             rel="noopener noreferrer"
-                            to="/signin"
+                            to="/"
                             className="hover:underline text-green-700"
                         >
                             Log in
