@@ -110,7 +110,7 @@ function App() {
     };
 
     return (
-        <div className="flex h-[300] justify-center items-center bg-[#e1e1e1] bg-cover">
+        <div className="flex h-[300] overflow-x-hidden justify-center items-center bg-[#e1e1e1] bg-cover">
             <Layout user={user}>
                 <Routes>
                     <Route path="/" element={<SignIn />} />

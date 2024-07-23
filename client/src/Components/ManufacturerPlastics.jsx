@@ -61,7 +61,7 @@ const PlasticsPage = () => {
 
 
     return (
-        <div className="container mx-auto p-4 sm:p-6">
+        <div className="container mx-auto p-10">
             <h2 className="text-4xl font-semibold mb-6 dark:text-gray-800">Plastics Created by Manufacturer</h2>
             {error && <p className="text-red-500 mb-4">{error}</p>}
             {manufacturer ? (
@@ -82,7 +82,7 @@ const PlasticsPage = () => {
                             <th className="p-3">ID #</th>
                             <th className="p-3">Manufactured Date</th>
                             <th className="p-3">Type</th>
-                            <th className="p-3">Cost</th>
+                            <th className="p-3 text-right">Cost</th>
                         </tr>
                     </thead>
                     <tbody>
